@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Global Horizons International School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="logo">GHIS</div>
+      <div class="announcement-ticker" aria-label="Contact information">
+        <span class="ticker-label">Contact:</span>
+        <div class="ticker-track">
+          <div class="ticker-item">For general queries, call the school office.</div>
+          <div class="ticker-item">For admissions, email admissions@globalhorizons.edu.</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="nav-brand">Global Horizons</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#highlights">Highlights</a></li>
+        <li><a href="announcements.html">Announcements</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="section-inner wide">
+      <h1>Contact & Location</h1>
+      <p>Parents and visitors can use the details below to reach the school office.</p>
+
+      <div class="two-column">
+        <div>
+          <h2>School Office</h2>
+          <p>
+            Global Horizons International School<br />
+            21 Learning Avenue, Edutech City<br />
+            India
+          </p>
+          <p><strong>Phone:</strong> +91-98765-43210</p>
+          <p><strong>Email:</strong> info@globalhorizons.edu</p>
+          <p><strong>Admissions:</strong> admissions@globalhorizons.edu</p>
+
+          <h3>Office Hours</h3>
+          <p>Monday – Friday, 9:00 am – 4:00 pm (IST)</p>
+
+          <h3>Social Media</h3>
+          <p>Use this section to add official school social media links.</p>
+        </div>
+
+        <div>
+          <div class="map-placeholder">
+            <p>Google Maps embed for the school location can be placed here.</p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="q-name">Name</label>
+              <input id="q-name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="q-email">Email</label>
+              <input id="q-email" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="q-type">Query type</label>
+              <select id="q-type">
+                <option>General</option>
+                <option>Admissions</option>
+                <option>Transport</option>
+                <option>Accounts & fees</option>
+                <option>Careers</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="q-message">Message</label>
+              <textarea id="q-message" rows="4" required></textarea>
+            </div>
+            <button class="btn primary-btn" type="submit">Submit query</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Global Horizons International School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

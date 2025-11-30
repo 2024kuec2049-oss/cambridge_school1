@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admissions – Global Horizons International School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="logo">GHIS</div>
+      <div class="announcement-ticker" aria-label="Admissions information">
+        <span class="ticker-label">Admissions:</span>
+        <div class="ticker-track">
+          <div class="ticker-item">Applications invited for Nursery to Grade 12 for 2025–26.</div>
+          <div class="ticker-item">Interaction and assessment are part of the admission process.</div>
+          <div class="ticker-item">Limited seats available in Grades 9–12 Cambridge & IB streams.</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" aria-label="Primary">
+      <a href="index.html" class="nav-brand">Global Horizons</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#highlights">Highlights</a></li>
+        <li><a href="index.html#curricula">Curricula</a></li>
+        <li><a href="announcements.html">Announcements</a></li>
+        <li><a href="admissions.html" class="active">Admissions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="section-inner wide">
+      <h1>Admissions Enquiry Form</h1>
+      <p>This form is used to collect information for scheduling interactions and sharing fee details.</p>
+
+      <form class="admissions-form">
+        <fieldset>
+          <legend>Student Details</legend>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="s-name">Student full name</label>
+              <input id="s-name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="s-dob">Date of birth</label>
+              <input id="s-dob" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="s-grade">Applying for grade</label>
+              <select id="s-grade" required>
+                <option value="">Select grade</option>
+                <option>Nursery</option>
+                <option>KG</option>
+                <option>Grade 1</option>
+                <option>Grade 2</option>
+                <option>Grade 3</option>
+                <option>Grade 4</option>
+                <option>Grade 5</option>
+                <option>Grade 6</option>
+                <option>Grade 7</option>
+                <option>Grade 8</option>
+                <option>Grade 9</option>
+                <option>Grade 10</option>
+                <option>Grade 11</option>
+                <option>Grade 12</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="s-curriculum">Preferred curriculum</label>
+              <select id="s-curriculum" required>
+                <option value="">Select option</option>
+                <option>Cambridge (IGCSE / A Levels)</option>
+                <option>IB (MYP / Diploma)</option>
+                <option>Open to school recommendation</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Parent / Guardian Details</legend>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="p-name">Parent / guardian name</label>
+              <input id="p-name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="p-email">Email</label>
+              <input id="p-email" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="p-phone">Mobile number</label>
+              <input id="p-phone" type="tel" required />
+            </div>
+            <div class="form-group">
+              <label for="p-city">City</label>
+              <input id="p-city" type="text" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information</legend>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="p-program">Priority area for your child</label>
+              <select id="p-program">
+                <option>Strong academics</option>
+                <option>Sports</option>
+                <option>Performing arts</option>
+                <option>STEM / Robotics</option>
+                <option>Overall development</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="p-notes">Any specific information you would like to share</label>
+              <textarea id="p-notes" rows="4" placeholder="Learning needs, previous curriculum, languages spoken, etc."></textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary-btn">Submit enquiry</button>
+          <button type="reset" class="btn ghost-btn">Reset</button>
+        </div>
+      </form>
+
+      <div class="section-small-note">
+        <p>After submission, the admissions team will contact you within 2 working days with the next steps.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Global Horizons International School. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
